@@ -1,0 +1,21 @@
+# Ignore system and environment folders
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignore data, logs, and models
+#data/
+#logs/
+#models/
+
+# Ignore temporary or local notebooks
+notebooks/*checkpoint.ipynb
+
+# Ignore environment and config files (if any)
+.env
+*.pkl
+
+# allow model and scaler files
+# models/
+!models/heart_model.pkl
+!models/scaler.pkl
