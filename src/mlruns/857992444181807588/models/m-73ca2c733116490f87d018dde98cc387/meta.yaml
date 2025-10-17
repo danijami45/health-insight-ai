@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Danish.Syed/myprojects/ML_OPS/health-insight-ai/src/mlruns/857992444181807588/models/m-73ca2c733116490f87d018dde98cc387/artifacts
+creation_timestamp: 1760705063829
+experiment_id: '857992444181807588'
+last_updated_timestamp: 1760705084755
+model_id: m-73ca2c733116490f87d018dde98cc387
+model_type: null
+name: model
+source_run_id: 370463c03a034413a9c76158ff71e04a
+status: 2
+status_message: null
