@@ -11,6 +11,10 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 import mlflow
 import mlflow.sklearn
 
+import os
+os.makedirs("../models", exist_ok=True)
+os.makedirs("../logs", exist_ok=True)
+
 #Data loading
 #Fetching dataset, id=45 is for heart desease
 dataset = fetch_ucirepo(id=45)
