@@ -51,17 +51,17 @@ is_local = hostname in ["localhost", "127.0.0.1", "TU-63VC284"] or "local" in ho
 local_link = "http://localhost:8502"
 cloud_link = "https://health-insight-ai-monitoring-yourname.streamlit.app" 
 
-# Select URL based on environment
-dashboard_url = local_link if is_local else cloud_link
-
+#Select URL based on environment
+#dashboard_url = local_link if is_local else cloud_link
+#
 # Render button
-st.markdown(
-    f"""
-    <a href="{dashboard_url}" target="_blank">
-        <button style="background-color:#0078ff;color:white;padding:10px 20px;border:none;border-radius:6px;cursor:pointer;">
-            Open Monitoring Dashboard
-        </button>
-    </a>
-    """,
-    unsafe_allow_html=True
-)
+#st.markdown(
+#    f"""
+#    <a href="{dashboard_url}" target="_blank">
+#        <button style="background-color:#0078ff;color:white;padding:10px 20px;border:none;border-radius:6px;cursor:pointer;">
+#            Open Monitoring Dashboard
+#        </button>
+#    </a>
+#    """,
+#    unsafe_allow_html=True
+#)
